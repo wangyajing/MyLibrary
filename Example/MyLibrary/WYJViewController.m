@@ -8,6 +8,8 @@
 
 #import "WYJViewController.h"
 
+#import <MyLibrary/BlinkingLabel.h>
+
 @interface WYJViewController ()
 
 @end
@@ -17,6 +19,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    BlinkingLabel *label = [[BlinkingLabel alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+    label.tintColor = [UIColor redColor];
+    label.font = [UIFont systemFontOfSize:20];
+    label.text = @"I Blinking";
+    
+    self.view.backgroundColor  = [UIColor whiteColor];
+    [self.view addSubview:label];
+    
+    [label startBlinking];
+
+    
+//    UIButton *button = [ui]
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
