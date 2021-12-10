@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyLibrary'
+  s.name             = 'MyLibraryEcho'
   s.version          = '0.2.0'
   s.summary          = 'blinking label'
 

@@ -6,6 +6,8 @@
 //
 
 #import "BlinkingLabel.h"
+#import "Person.h"
+#import <YYModel/YYModel.h>
 
 @implementation BlinkingLabel
 
@@ -13,6 +15,10 @@
     [UIView animateWithDuration:0.25 delay:1 options:UIViewAnimationOptionRepeat animations:^{
         self.alpha = 0;
     } completion:nil];
+    
+    NSDictionary *dic = @{@"name": @"wang"};
+    Person *person = [Person yy_modelWithDictionary:dic];
+    NSLog(@"===name===%@", person.name);
 }
 
 - (void)stopBlinking {

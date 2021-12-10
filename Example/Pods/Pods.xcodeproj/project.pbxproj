@@ -95,6 +95,8 @@
 		6E90C8424FDBEC38061929C572C4C891 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE03117C40C09A303C6A2CB37F8241 /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6ED02164B5E06B799C50961364EEC1DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0191ECD4BD0AF66DC5A39E05A25836 /* Foundation.framework */; };
 		6F6D69F4CEE5D3878F453D0CD90A0785 /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD481CF8C410FC5685DAC8ECD45EBC59 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6FD40D612762F9250078EC58 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD40D5F2762F9240078EC58 /* Person.h */; };
+		6FD40D622762F9250078EC58 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FD40D602762F9240078EC58 /* Person.m */; };
 		6FFA723BC1B068310CD5E33808B395D8 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = 628317691FF32B93A28EF4980F34F29F /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		714FB212B725F8BDF3683F38B7F6B4CE /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 272CE424E1F4A3A3C52D0292EA415CD1 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7253B6BCF113107A46DD54CC275847D3 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BF690A73EB99AE1D8B7DDCD4E0FBEE /* Expecta-dummy.m */; };
@@ -413,6 +415,8 @@
 		6D0ECC1870EF80FCAB34814D3AC317BB /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		6D703258DDD524743A240FBDB6BAC949 /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		6F582A1B493F70416F595DEB79F6A1DF /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
+		6FD40D5F2762F9240078EC58 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6FD40D602762F9240078EC58 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		707DF2B0F150B8BB236C74AF21031C18 /* Expecta+Snapshots.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.release.xcconfig"; sourceTree = "<group>"; };
 		70EC8DC04E43E6ABD7ED983A3AE2D099 /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		7593411827B97912D46A41D4DC2DA2DE /* Pods-MyLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -783,6 +787,8 @@
 			children = (
 				8817DBB803A4551AF1AC10A57A3FB7BF /* BlinkingLabel.h */,
 				D40D78BA81077869B2B97F3ADB733506 /* BlinkingLabel.m */,
+				6FD40D5F2762F9240078EC58 /* Person.h */,
+				6FD40D602762F9240078EC58 /* Person.m */,
 				B3865768B54F4FCBEA9DB0A9F9F64D70 /* Pod */,
 				213A8A5A04766A7994FC117A9D921AA4 /* Support Files */,
 			);
@@ -1165,6 +1171,7 @@
 			files = (
 				5C2D4C7B203DB48389B3F7F230EC1A9A /* BlinkingLabel.h in Headers */,
 				E880E3A4D0AAB5F4DDF263984583AA26 /* MyLibrary-umbrella.h in Headers */,
+				6FD40D612762F9250078EC58 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1610,6 +1617,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FD40D622762F9250078EC58 /* Person.m in Sources */,
 				4E09E061F7266518ADC0F04E40C73A12 /* BlinkingLabel.m in Sources */,
 				A380486DBFE647A2D300E53BE78AEEA3 /* MyLibrary-dummy.m in Sources */,
 			);
