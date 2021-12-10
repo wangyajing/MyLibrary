@@ -24,9 +24,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## MyLibrary
+## MyLibraryEcho
 
-Copyright (c) 2021 wangyajing <wangyajing@duiba.com.cn>
+Copyright (c) 2021 wangyajing <wyj.com.cn>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

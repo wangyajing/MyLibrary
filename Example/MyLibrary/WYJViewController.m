@@ -8,7 +8,7 @@
 
 #import "WYJViewController.h"
 
-#import <MyLibrary/BlinkingLabel.h>
+#import <MyLibraryEcho/BlinkingLabel.h>
 
 @interface WYJViewController ()
 

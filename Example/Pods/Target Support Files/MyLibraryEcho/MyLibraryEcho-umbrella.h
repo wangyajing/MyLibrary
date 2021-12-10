@@ -11,7 +11,8 @@
 #endif
 
 #import "BlinkingLabel.h"
+#import "Person.h"
 
-FOUNDATION_EXPORT double MyLibraryVersionNumber;
-FOUNDATION_EXPORT const unsigned char MyLibraryVersionString[];
+FOUNDATION_EXPORT double MyLibraryEchoVersionNumber;
+FOUNDATION_EXPORT const unsigned char MyLibraryEchoVersionString[];
 

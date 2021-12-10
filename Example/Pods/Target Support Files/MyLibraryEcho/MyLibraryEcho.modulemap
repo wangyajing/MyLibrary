@@ -1,0 +1,6 @@
+framework module MyLibraryEcho {
+  umbrella header "MyLibraryEcho-umbrella.h"
+
+  export *
+  module * { export * }
+}
