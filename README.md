@@ -22,7 +22,7 @@ pod 'MyLibrary'
 
 ## Author
 
-wangyajing, wangyajing@duiba.com.cn
+wangyajing
 
 ## License
 

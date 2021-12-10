@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibraryEcho'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'blinking label'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wangyajing'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wangyajing' => 'wangyajing@duiba.com.cn' }
+  s.author           = { 'wangyajing' => 'wyj_echo@163.com' }
   s.source           = { :git => 'https://github.com/wangyajing/MyLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
